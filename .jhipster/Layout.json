@@ -1,0 +1,10 @@
+{
+  "annotations": {
+    "changelogDate": "20250407000756"
+  },
+  "applications": ["blogApp"],
+  "fields": [],
+  "name": "Layout",
+  "relationships": [],
+  "searchEngine": "no"
+}

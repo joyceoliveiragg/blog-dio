@@ -1,0 +1,15 @@
+{
+  "annotations": {
+    "changelogDate": "20250407000656"
+  },
+  "applications": ["blogApp"],
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Menu",
+  "relationships": [],
+  "searchEngine": "no"
+}

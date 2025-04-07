@@ -1,0 +1,19 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "blogApp",
+    "buildTool": "gradle",
+    "clientFramework": "angular",
+    "devDatabaseType": "h2Disk",
+    "entities": ["Post", "Menu", "Layout"],
+    "jhipsterVersion": "8.10.0",
+    "jwtSecretKey": "MzJhNTg5YjliMTE0MGE2MzYwM2QwM2M0YmI0OTczMTg5Mzg4ZjkwMjNmYjhiMGI0Mjc3NjdjMGEwMTgxMGQ1NWIzMzM3YmFmZGM2YzMyOGYzOWUwMjFiNTgzMGU3N2M4MTZhZGY3NmVmNTJhNjVkZDQ1ZmUxM2Q4M2Q0MGM2OGI=",
+    "languages": ["en"],
+    "lastLiquibaseTimestamp": 1743984476000,
+    "nativeLanguage": "en",
+    "packageName": "com.mycompany.blog",
+    "prodDatabaseType": "postgresql",
+    "skipUserManagement": true
+  }
+}

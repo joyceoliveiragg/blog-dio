@@ -1,0 +1,31 @@
+application {
+  config {
+    baseName blogApp
+    packageName com.mycompany.blog
+    applicationType monolith
+    authenticationType jwt
+    prodDatabaseType postgresql
+    devDatabaseType h2Disk
+    buildTool gradle
+    clientFramework angular
+    skipUserManagement true
+  }
+  entities *
+}
+
+entity Post {
+  title String required
+  description String required
+  imageUrl String
+  authorName String
+  publishDate Instant
+  category String
+}
+
+entity Menu {
+  title String
+}
+
+entity Layout {
+
+}
